@@ -1,0 +1,54 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  margin-bottom: 15px;
+}
+
+.footer_c {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.footer-textItem {
+  color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+}
+
+.footer-textHeader {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.rounded-css {
+  border-radius: 100%;
+  display: block;
+  background: rgba(20, 20, 20, 1);
+  border-bottom: 40px rgba(20, 20, 20, 1) solid;
+  border-top: 40px transparent solid;
+  position: relative;
+  top: -40px;
+  overflow: hidden;
+  z-index: -1;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+.btn-light {
+  font-weight: bold;
+}
+
+.btn-warning {
+  font-weight: bold;
+}
+
+span {
+  font-weight: bold;
+}
